@@ -1,0 +1,203 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+/*Header y Navbar*/
+header {
+  margin-top: 10px;
+  display: flex;
+}
+
+.logo {
+  font-weight: 900;
+  margin-left: 18%;
+  font-size: 10px;
+}
+
+nav ul {
+  margin-right: 350px;
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+.icons .fa-cart-shopping {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.226);
+}
+.user img {
+  margin-top: 5px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons a {
+  margin-left: 20px;
+}
+
+hr {
+  width: 65%;
+}
+/*Header y Navbar*/
+
+/*Main content*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Images section*/
+.images {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 600px;
+}
+
+.mainImage {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.secondImgs {
+  margin-top: 10px;
+  margin-left: 115px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.mainImage img {
+  margin-top: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+}
+.secondImgs img {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80px;
+  height: 87px;
+}
+/*Images section*/
+
+/*Information section*/
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 600px;
+}
+
+.company {
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: orange;
+}
+.title {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.description {
+  color: gray;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.price {
+  display: flex;
+  margin-bottom: 15px;
+}
+.afterPrice {
+  font-weight: 900;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.previousPrice {
+  color: gray;
+  text-decoration: line-through;
+  margin-bottom: 30px;
+}
+.discount {
+  padding: 5px;
+  background-color: rgb(255, 241, 214);
+  color: rgb(230, 151, 4);
+  font-weight: 700;
+  border-radius: 5px;
+}
+.countAdd {
+  display: flex;
+}
+/*CONTADOR*/
+.counter {
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.counter-button {
+  background-color: rgb(243, 243, 243);
+  width: 50px;
+  height: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.counter-value {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.counter-button.plus,
+.counter-button.minus {
+  color: orange;
+}
+
+/*CONTADOR*/
+.cart {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  color: white;
+  margin-left: 10px;
+  background-color: rgb(255, 153, 0);
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.fa-cart-shopping {
+  margin-right: 10px;
+}
+/*Information section*/
